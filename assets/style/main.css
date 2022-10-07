@@ -196,4 +196,26 @@ li{
     }
 
 }
+@media (max-width:400px) {
+    #wrapper--hero {
+        flex-direction: column;
+        gap:1em
+    }
+
+    #profile-pic{
+        width: 140px;
+        height: 140px;
+    }
+
+    .section--page{
+        padding-top:1em;
+        padding-bottom: 1em;
+    }
+
+    #user-name{
+        font-size: 1.0em;
+        line-height: 1em;
+    }
+
+}
 
