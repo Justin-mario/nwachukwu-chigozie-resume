@@ -174,7 +174,7 @@ li{
     border: none
 }
 
-@media (max-width:500px) {
+@media (max-width:600px) {
     #wrapper--hero {
         flex-direction: column;
         gap:1em
@@ -191,7 +191,7 @@ li{
     }
 
     #user-name{
-        font-size: 1.2em;
+        font-size: 1.15em;
         line-height: 1em;
     }
 
