@@ -22,7 +22,7 @@
 }
 
 *{
-   font-family: 'Courier New'; 
+   font-family: 'Courier','Courier New', 'monospace'; 
    line-height: 1.5em;
    box-sizing: border-box;
    color: var(--mainTextColor);
@@ -174,7 +174,7 @@ li{
     border: none
 }
 
-@media (max-width:600px) {
+@media screen and (max-width: 600px) {
     #wrapper--hero {
         flex-direction: column;
         gap:1em
@@ -195,5 +195,26 @@ li{
         line-height: 1em;
     }
 
+}
+@media screen and (max-width: 400px) {
+    #wrapper--hero {
+        flex-direction: column;
+        gap:1em
+    }
+
+    #profile-pic{
+        width: 130px;
+        height: 130px;
+    }
+
+    .section--page{
+        padding-top:1em;
+        padding-bottom: 1em;
+    }
+
+    #user-name{
+        font-size: 1.05em;
+        line-height: 1em;
+    }
 }
 
