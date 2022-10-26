@@ -49,7 +49,7 @@ li{
 }
 
 #container--main{
-    max-width: 700px;
+    max-width: 43.75em;
     margin: 0 auto;
 }
 
@@ -76,8 +76,8 @@ li{
 }
 
 #profile-pic {
-    max-width:200px;
-    max-height:160px;
+    max-width:12.5em;
+    max-height:10em;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -181,8 +181,8 @@ li{
     }
 
     #profile-pic{
-        width: 140px;
-        height: 140px;
+        width: 8.75em;
+        height: 8.75empx;
     }
 
     .section--page{
@@ -203,8 +203,8 @@ li{
     }
 
     #profile-pic{
-        width: 130px;
-        height: 130px;
+        width: 8.124em;
+        height: 8.124em;
     }
 
     .section--page{
